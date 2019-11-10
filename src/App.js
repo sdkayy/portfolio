@@ -167,10 +167,16 @@ const hardCodedProjects = [
     link: "https://beta.authed.io"
   },
   {
-    name: "My goto boiler plate",
+    name: "My goto (non next) boiler plate",
     description:
-      "This is just a very simple boiler I use when I am not making a Next.JS project. TODO a next boiler.",
+      "This is just a very simple boiler I use when I am not making a Next.JS project.",
     link: "https://github.com/sdkayy/react-boiler-ts"
+  },
+  {
+    name: "My next boiler plate",
+    description:
+      "This is a very basic but useful starting point for most of my Next projects.",
+    link: "https://github.com/sdkayy/react-next-typescript"
   }
 ];
 
@@ -250,4 +256,3 @@ export default props => {
     </ViewWrapper>
   );
 };
- 
