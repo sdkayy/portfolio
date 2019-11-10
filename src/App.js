@@ -79,8 +79,12 @@ const SocialLink = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s ease-in;
+
   &:hover {
     color: red;
+    transition: all 0.2s ease-out;
+    transform: translateY(-2px);
   }
 `;
 
@@ -90,6 +94,14 @@ const CardLink = styled.a`
   padding: 12px;
   margin: 12px;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    transition: all 0.2s ease-out;
+    transform: translateY(-2px);
+  }
 `;
 
 const ExperienceCard = props => {
@@ -238,3 +250,4 @@ export default props => {
     </ViewWrapper>
   );
 };
+ 
